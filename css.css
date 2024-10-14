@@ -1,0 +1,143 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;  
+}
+
+h1 {
+    text-align: center;
+    color: #012346;
+    background-color: #d9b446;
+    padding: 0.5rem;
+    border: 2px sold whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    margin: 10px;
+}
+
+
+@media (min-width: 992px) {
+    p {height: 250px;
+    margin: .25rem;}
+    
+    #p1 {
+        background-color: #012346;
+        color: aliceblue;
+        border: 2px solid #d9b446;
+        float: left;
+        width: 30%;
+        }
+
+    
+    #p2 {
+        background-color:#d9b446;
+        color:#012346;
+        border: 2px solid #012346;
+        float: left;
+        width: 30%;
+        }
+    
+    
+    #p3 {
+        background-color: #012346;
+        color: aliceblue;
+        border: 2px solid #d9b446;
+        float: left;
+        width: 30%;
+        }
+}
+
+p{ padding: 1rem;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    #p1 {
+        background-color: #012346;
+        color: aliceblue;
+        border: 2px solid #d9b446;
+        float: left;
+        width: 40%;
+        margin: 20px;}
+    
+    #p2 {
+        background-color:#d9b446;
+        color:#012346;
+        border: 2px solid #012346;
+        float: left;
+        width: 40%;
+        margin: 20px}
+    
+    
+    #p3 {
+        background-color: #012346;
+        color: aliceblue;
+        border: 2px solid #d9b446;
+        float: left;
+        width: 85%;
+        height: 100px;
+        margin-left: 20px;
+        margin-right: 0px;
+    
+    }
+}
+    
+@media (max-width: 767px) {
+
+    p {margin: 20px;}
+
+    #p1 {
+        background-color: #012346;
+        color: aliceblue;
+        border: 2px solid #d9b446;
+        float: left;
+        width: 95%;
+        height: fit-content;
+    }
+    
+    #p2 {
+        background-color:#d9b446;
+        color:#012346;
+        border: 2px solid #012346;
+        float: left;
+        width: 95%;
+        height: fit-content;}
+    
+    
+    #p3 {
+        background-color: #012346;
+        color: aliceblue;
+        border: 2px solid #d9b446;
+        float: left;
+        width: 95%;
+        height: fit-content;
+    }
+}
+
+#sub1 {
+    float: right;
+    color: #012346;
+    background-color: #d9b446;
+    padding: 5px;
+}
+
+#sub2 {
+    float: right;
+    background-color: #012346;
+    color:#d9b446;
+    padding: 5px;
+}
+
+#sub3 {
+    
+    float: right;
+    color: #012346;
+    background-color: #d9b446;
+    padding: 5px;
+}
+
+    
+ 
+
